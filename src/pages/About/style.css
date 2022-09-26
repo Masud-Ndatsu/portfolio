@@ -1,0 +1,100 @@
+.about-page header {
+  background-color: teal;
+}
+
+.testimonials,
+.skills,
+.about-me {
+  min-height: 300px;
+  padding: 3rem 1.75rem;
+}
+.about-me .details {
+  max-width: 650px;
+  margin-top: 30px;
+  padding-bottom: 2.5rem;
+}
+
+.skills {
+  background-color: teal;
+  color: #fff;
+}
+
+.skills h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.skills .progress {
+  overflow: hidden;
+  margin: 0 auto;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.skills .progress div {
+  height: 100%;
+  color: white;
+  background-color: orange;
+}
+.slider {
+  text-align: center;
+  min-height: 450px;
+  position: relative;
+  padding: 1rem 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider img {
+  margin: 1rem auto;
+  border-radius: 50%;
+  height: 150px;
+}
+
+.slider .title {
+  margin-bottom: 25px;
+}
+
+.slider .text {
+  max-width: 450px;
+  margin: auto;
+}
+
+.slider .prev-btn,
+.slider .next-btn {
+  display: inline-block;
+  position: absolute;
+  left: 9%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.slider .next-btn {
+  left: 85%;
+}
+
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+article.lastSlide {
+  transform: translateX(-100%);
+}
+article.nextSlide {
+  transform: translateX(100%);
+}

@@ -1,0 +1,154 @@
+#header {
+  min-height: 100vh;
+  background: linear-gradient(-45deg, teal, #666);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar {
+  padding: 1.3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .logo {
+  height: 50px;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+}
+
+.navbar .nav-links a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.75rem 0;
+}
+
+.navbar .nav-links a:hover {
+  border-bottom: 2px solid tan;
+}
+
+#header .header-content {
+  height: 70vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 1rem 10px;
+}
+
+.header-content .banner {
+  max-width: 772px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.header-content .banner .txt-type {
+  color: tan;
+}
+
+#header .header-content .title {
+  font-size: 3rem;
+  font-stretch: condensed;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+#header .header-content .lead {
+  text-transform: capitalize;
+}
+
+#header .header-content .btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 1em 4em;
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+#header .header-content .btn:active {
+  transform: scale(0.98);
+}
+.title-wrapper {
+  margin: 1rem auto;
+  display: grid;
+  justify-content: center;
+}
+.title-wrapper h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.title-wrapper div {
+  height: 3px;
+  width: 100px;
+  margin: auto;
+  background-color: tan;
+}
+
+/* Specialize Section */
+
+.grid {
+  /* text-align: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+
+.grid-item {
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.grid-item h3 {
+  text-align: center;
+  background-color: teal;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 00.75rem;
+  margin-bottom: 20px;
+}
+
+.technology {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.technology .grid-item {
+  background-color: teal;
+  margin: 5px;
+  height: 380px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  display: grid;
+  place-items: center;
+  background-color: teal;
+  color: #fff;
+}
+footer .social-icons ul {
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons ul li {
+  margin: 5px;
+}
