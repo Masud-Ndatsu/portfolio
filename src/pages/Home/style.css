@@ -154,11 +154,12 @@ footer .social-icons ul {
 }
 
 footer .social-icons ul li {
-  margin: 5px;
+  margin: 25px;
 }
 
 
 footer .social-icons ul li a {
   text-decoration: none;
   color: #fff;
+  font-size: 1.75rem;
 }
