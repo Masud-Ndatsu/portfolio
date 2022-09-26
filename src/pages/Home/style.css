@@ -97,6 +97,10 @@
   background-color: tan;
 }
 
+.txt-type {
+  color: orange;
+}
+
 /* Specialize Section */
 
 .grid {
@@ -151,4 +155,10 @@ footer .social-icons ul {
 
 footer .social-icons ul li {
   margin: 5px;
+}
+
+
+footer .social-icons ul li a {
+  text-decoration: none;
+  color: #fff;
 }

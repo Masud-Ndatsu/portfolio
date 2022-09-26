@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
+import Typewriter from 'typewriter-effect';
 import "./style.css";
       
       
@@ -18,11 +19,15 @@ const Home = () => {
           <div className="banner">
             <h1 className="title">
               I Am Mas'ud the{" "}
-              <span
-                className="txt-type"
-                data-wait="3000"
-                data-words='["Fullstack","Engineer"]'
-              ></span>
+              <span className="txt-type">
+                <Typewriter
+                  options={{
+                    strings: ["Fullstack","Engineer"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </span>
             </h1>
             <p className="lead">
               specialized in Backend, Frontend and Database Engineering

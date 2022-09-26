@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa"
 
 const Footer = () => {
   const date = new Date().getFullYear();
@@ -10,10 +11,21 @@ const Footer = () => {
           <div className="social-icons">
             <h3>Let's connect here</h3>
             <ul>
-              <li>Lorem</li>
-              <li>Lorem</li>
-              <li>Lorem</li>
-              <li>Lorem</li>
+              <li>
+                <a href="https://github.com/Masud-Ndatsu" target={"_blank"}>
+                  <FaGithubSquare />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/mas-ud-ndatsu-2b29831aa/" target={"_blank"}>
+                  <FaLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MasudNdatsu?t=K82Ut05EutEHYadnuXX6bw&s=03" target={"_blank"}>
+                  <FaTwitterSquare />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
