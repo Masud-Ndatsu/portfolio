@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { data } from "../data";
+import { FaChevronRight, FaChevronLeft } from "react-icons/fa"
 
 const Slider = () => {
   const [people, setPeople] = useState(data);
@@ -42,10 +43,10 @@ const Slider = () => {
         );
       })}
       <button className="prev-btn" onClick={() => setIndex(index - 1)}>
-        P
+      <FaChevronLeft />
       </button>
       <button className="next-btn" onClick={() => setIndex(index + 1)}>
-        N
+      <FaChevronRight />
       </button>
     </div>
   );
